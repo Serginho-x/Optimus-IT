@@ -1,0 +1,125 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Post №1",
+            "description": "Duis aliquet dui ut arcu convallis, viverra posuere tellus scelerisque. In et risus ut odio.",
+            "tags": ["Maecenas", "Consectetur"]
+        }, {
+            "id": 2,
+            "title": "Post №2",
+            "description": "In tristique dapibus sodales. Mauris id elit ultricies, faucibus arcu et, egestas orci. Phasellus egestas ut nisl.",
+            "tags": ["Adipisci", "Sed"]
+        }, {    
+            "id": 3,
+            "title": "Post №3",
+            "description": "Proin non ullamcorper sapien. Vestibulum porttitor tempor odio faucibus eleifend. Morbi posuere mauris.",
+            "tags": ["Pellentesque"]
+        }, {
+            "id": 4,
+            "title": "Post №4",
+            "description": "Pellentesque ac dapibus enim. Aliquam eget diam luctus, sagittis erat eget, posuere erat. Vivamus libero leo, facilisis in metus non.",
+            "tags": ["Jalesuada", "Dolorem", "Adipisci"]
+        }, {
+            "id": 5,
+            "title": "Post №5",
+            "description": "Praesent non massa suscipit, pharetra diam id, malesuada risus. Aliquam ullamcorper ipsum eu metus viverra, et accumsan enim porttitor. Morbi sed metus.",
+            "tags": ["Integer", "Maecenas", "Sed"]
+        }, {
+            "id": 6,
+            "title": "Post №6",
+            "description": "Aliquam feugiat condimentum magna. Nulla ligula tortor, laoreet id justo fringilla, vulputate eleifend felis. Pellentesque.",
+            "tags": ["Dolorem", "Quisquam", "Adipisci"]
+        }, {
+            "id": 7,
+            "title": "Post №7",
+            "description": "Mauris id dolor accumsan, ultricies dui id, faucibus lacus. Quisque semper nec diam eu scelerisque. Integer lacinia.",
+            "tags": ["Integer", "Jalesuada"]
+        }, {
+            "id": 8,
+            "title": "Post №8",
+            "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis interdum scelerisque libero sit.",
+            "tags": ["Consectetur", "Adipisci", "Maecenas"]
+        }, {    
+            "id": 9,
+            "title": "Post №9",
+            "description": "Suspendisse sed tortor lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi.",
+            "tags": ["Quisquam", "Vivamus"]
+        }, {
+            "id": 10,
+            "title": "Post №10",
+            "description": "Praesent condimentum hendrerit pharetra. Aenean dolor nisi, suscipit nec rutrum at, facilisis et purus. Aliquam suscipit urna quis mi feugiat, non condimentum lacus cursus. In.",
+            "tags": ["Quisquam", "Integer", "Sed"]
+        }, {
+            "id": 11,
+            "title": "Post №11",
+            "description": "Donec pharetra condimentum nisl, ac rutrum lorem efficitur ac. Curabitur turpis quam, laoreet et vulputate ac, laoreet et ante.",
+            "tags": ["Consectetur", "Maecenas"]
+        }, {
+            "id": 12,
+            "title": "Post №12",
+            "description": "Nullam sed mi eu tellus tempus consequat. Cras quis nibh sem. Aliquam non leo congue, placerat nisi et, lobortis arcu. Quisque.",
+            "tags": ["Adipisci",  "Vivamus"]
+        },  {
+            "id": 13,
+            "title": "Post №13",
+            "description": "Fusce vel nisi et nisl efficitur tincidunt. Praesent feugiat, quam a viverra faucibus, nunc neque.",
+            "tags": ["Jalesuada", "Integer"]
+        }, {
+            "id": 14,
+            "title": "Post №14",
+            "description": "Nulla sit amet massa sagittis, interdum quam vel, ornare purus. Aenean eget lorem ut odio pretium faucibus et non elit. Praesent venenatis dapibus.",
+            "tags": ["Quisquam"]
+        }, {    
+            "id": 15,
+            "title": "Post №15",
+            "description": "Maecenas risus diam, iaculis quis orci ut, scelerisque mattis justo. Sed tempor elit ac laoreet vulputate. Lorem ipsum.",
+            "tags": ["Sed", "Dolorem", "Pellentesque"]
+        }, {
+            "id": 16,
+            "title": "Post №16",
+            "description": "Pellentesque placerat lorem vel augue egestas, non dignissim orci facilisis. Praesent varius enim augue, vel euismod lectus hendrerit eget. Phasellus vestibulum.",
+            "tags": ["Vivamus" ]
+        }, {
+            "id": 17,
+            "title": "Post №17",
+            "description": "Nam tortor lacus, aliquet ac pellentesque quis, eleifend et orci. Duis ut metus nunc. Etiam non tortor dignissim, varius odio eget.",
+            "tags": ["Quisquam", "Integer"]
+        }, {
+            "id": 18,
+            "title": "Post №18",
+            "description": "Etiam pretium diam leo, a pretium lacus egestas sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.",
+            "tags": ["Adipisci", "Maecenas"]
+        }, {
+            "id": 19,
+            "title": "Post №19",
+            "description": "Pellentesque congue urna eget luctus venenatis. Nullam nec cursus libero, nec volutpat dolor. Morbi vel magna id nibh ultrices laoreet ac consectetur dui.",
+            "tags": ["Pellentesque"]
+        }, {
+            "id": 20,
+            "title": "Post №20",
+            "description": "Nam vulputate vel neque vel consectetur. Suspendisse in sapien eget turpis semper rutrum sit amet nec est. Aliquam eleifend tincidunt porttitor.",
+            "tags": ["Dolorem", "Consectetur"]
+        }, {    
+            "id": 21,
+            "title": "Post №21",
+            "description": "Vivamus et mauris iaculis, vestibulum nulla ut, egestas libero. Maecenas eget ligula a sem.",
+            "tags": ["Adipisci"]
+        }, {
+            "id": 22,
+            "title": "Post №22",
+            "description": "Aenean a facilisis lectus. Donec lacinia purus a volutpat ornare. Curabitur tincidunt metus non nunc pellentesque, a gravida dolor cursus.",
+            "tags": [ "Consectetur", "Sed"]
+        }, {
+            "id": 23,
+            "title": "Post №23",
+            "description": "Maecenas vel velit a odio eleifend vehicula. Maecenas venenatis iaculis ante, non viverra elit iaculis a. Aliquam aliquet pharetra arcu.",
+            "tags": ["Vivamus", "Sed"]
+        }, {
+            "id": 24,
+            "title": "Post №24",
+            "description": "Nulla suscipit, elit nec ornare euismod, ipsum sapien sodales sapien, at varius tortor nisi in neque. Sed.",
+            "tags": ["Jalesuada"]
+        }
+    ]
+}

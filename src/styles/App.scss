@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #ecedef;
+    font-size: 20px;
+    font-family: Raleway;
+}
+
+h1 {
+    color: #0c8dab;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+
+@import "posts"
