@@ -4,6 +4,7 @@ import {getPosts, filterTag, getTags} from '../store/actions';
 import {getVisiblePosts} from '../store/selectors'
 import Post from './Post';
 import Selector from './Selector';
+
 import '../styles/App.css';
 
 class App extends Component {      
@@ -33,25 +34,23 @@ class App extends Component {
     render() {
         const {posts} = this.props;
         const {options, selected} = this.state;
-        return (
-            <>                
-                <div className="postList">
-                    <h1>My Post Viewer!</h1>
-                    <div className="select">
-                        <Selector 
-                            options={options}
-                            selected={selected}
-                            onChange={this.onChange}                        
-                        />
-                    </div>
-                    <button className="button" onClick={() => this.onChange("All")}>
-                        Clear
-                    </button>
-                    {posts.map((post) => (
-                       <Post key={post.id} post={post}/>
-                    ))}
-                </div>               
-            </>
+        return (           
+            <div className="postList">
+                <h1>My Post Viewer!</h1>
+                <div className="select">
+                    <Selector 
+                        options={options}
+                        selected={selected}
+                        onChange={this.onChange}                        
+                    />
+                </div>
+                <button className="button" onClick={() => this.onChange("All")}>
+                    Clear
+                </button>
+                {posts && posts.map((post) => (
+                    <Post key={post.id} post={post}/>
+                ))}
+            </div> 
         );
     }
 }
@@ -67,7 +66,7 @@ const mapDispatchToProps = dispatch => {
     return {
        filterTag: (tag) => dispatch(filterTag(tag)),
        getPosts: () => dispatch(getPosts()),
-       getTags: (tag) => dispatch(getTags(tag)),
+       getTags: (tag) => dispatch(getTags(tag))
     }
 }
 

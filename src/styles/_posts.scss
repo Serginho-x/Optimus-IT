@@ -8,20 +8,24 @@
 
     .button {
         height: 40px;
-        border: 2px solid #0c8dab;
+        border: 2px solid $main-color;
         border-radius: 5px;
-        background-color: #0c8dab;
+        background-color: $main-color;
         font-size: 20px;
         float: right;
-
     }
 }
 
-.post{ 
-    border: 1px solid black;   
+.fullList {
+    width: 800px;
+    margin-top: 10%; 
+}
+
+.post { 
+    border: 1px solid $black;   
     padding: 15px 25px 20px;
     margin: 0 0 20px;
-    background: #fff;
+    background: $white;
     border-radius: 5px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.25);
 
@@ -36,18 +40,18 @@
         margin-bottom: 15px;            
     }
 
-    .footer-details{
+    .footer-details {
         display: flex;
         justify-content: space-between;
         padding: 0 5px;
 
-        .author{
-            color: #0c8dab;
+        .author {
+            color: $main-color;
             font-weight: 700;
             cursor: pointer;          
         }
 
-        .date{
+        .date {
             font-style: italic;
         }
     }
@@ -62,24 +66,87 @@
             .tag {
                 display: inline-block;
                 border-radius: 5px;
-                border: 1px solid #0c8dab;
+                border: 1px solid $main-color;
                 margin: 10px 5px 0 0;
                 padding: 5px 15px;
                 box-shadow: 0 1px 4px rgba(0,0,0,0.25); 
             }
         }
 
-        .show-details{
-            align-self: flex-end;
-            color: #0c8dab;
-            text-decoration: underline;
-    
-            &:hover {            
-                cursor: pointer;
-                color: red;
-            }   
-        }
-    } 
+        a {
+            align-self: flex-end;            
 
-   
+            .show-details {
+                align-self: flex-end;
+                color: $main-color;
+                text-decoration: underline;
+        
+                &:hover {            
+                    cursor: pointer;
+                    color: $red;
+                }   
+            }
+        }        
+    }    
+
+    .fullList-footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+
+        .back-button {
+            width: 100px;       
+            height: 25px;
+            border: 2px solid $main-color;
+            border-radius: 5px;
+            text-align: center;
+            background-color: $main-color;
+            font-size: 20px;
+    
+            a {
+                text-decoration: none;
+                color: $white;
+            }
+        }
+    }    
+}
+
+@media (max-width: 900px) {
+    .postList, .fullList {
+        width: 500px;
+        .select {
+            width: 80%;
+        }
+    }
+    .post {
+        .post-footer {
+            display: block;
+    
+            .tag-container {
+                display: block;   
+                
+                .tag {                   
+                    margin: 10px 5px 10px 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .postList, .fullList {
+        width: 320px;
+        .select {
+            width: 70%;
+        }        
+    }
+    .post {
+        .footer-details {
+            display: block;
+
+            .author, .date {
+                text-align: center;
+            }
+        }
+    }
 }
